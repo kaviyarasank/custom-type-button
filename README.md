@@ -25,7 +25,7 @@ function App() {
         width="300px"
         backgroundSize="200%"
         borderRadius="10px"
-
+        fontSize="20px"
       />
     </div>
     

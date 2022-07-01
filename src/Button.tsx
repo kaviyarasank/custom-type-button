@@ -14,7 +14,7 @@ transition:string,
 boxShadow:string,
 border:string,
 backgroundSize:string,
-
+fontSize:string,
 }
 export function Button(props:buttonprops){
     return(
@@ -29,6 +29,7 @@ boxShadow:`${props.boxShadow}`,
 color:`${props.color}`,
 background:`${props.background}`,
 width:`${props.width}`,
+fontSize:`${props.fontSize}`,
 backgroundSize:`${props.backgroundSize}`,
 borderRadius:`${props.borderRadius}`}}  
 data-testid={props.testid} 
