@@ -15,14 +15,12 @@ boxShadow:string,
 border:string,
 backgroundSize:string,
 fontSize:string,
-disabled:any
 }
 export function Button(props:buttonprops){
     return(
         <div>
 <button 
 onClick={props.onClick} 
-disabled={props.disabled}
 style={{height:`${props.height}`,
 textAlign:props.textAlign,
 border:`${props.border}`,
